@@ -1,15 +1,15 @@
 """ Problem 1: Write a Python Program to calculate the total number of vowels and 
                count each of individual vowels in the string"""
 
-vowels=['a','e','i','o','u','A','E','I','O','U']     #vowels in upper&lower case
-str= "Guvi Geek Network Private Limited"             #given string
+vowels=['a','e','i','o','u','A','E','I','O','U']       # vowels in upper&lower case
+str= "Guvi Geek Network Private Limited"               # given string
 
 # To count the total number of vowels in the string:
 
-total_vowels=0          #variable to store total no. of vowels in each iteration
-for i in vowels:
-    for j in str:
-        if i==j:
+total_vowels=0                                         # variable to store total no. of vowels in each iteration
+for i in vowels:                                       # outer loop iterate through vowels
+    for j in str:                                      # inner loop checks vowels in the string 
+        if i==j:                                       # if condition to check the vowels and the 'char' in string is same.
             total_vowels=total_vowels+1
 print("Total vowels in the String:",total_vowels)
 
@@ -17,10 +17,10 @@ print("Total vowels in the String:",total_vowels)
 # To count number of "a" or "A" in the given string:
 
 a_count=0
-for i in str:
-    if i=='a' or i=='A':
+for i in str:                                          # loops through the given string
+    if i=='a' or i=='A':                               # condition to check the vowel 'a or A' in the string
         a_count+=1
-print("Total 'a' in the given String:",a_count)
+print("Total 'a' in the given String:",a_count)        # prints the total number of 'a or A' in the string
 
 
 # To count number of "e" or "E" in the given string:
@@ -60,5 +60,5 @@ print("Total 'u' in the given String:",u_count)
         
         
         
-        
+
             
