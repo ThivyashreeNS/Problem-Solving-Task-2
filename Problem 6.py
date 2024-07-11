@@ -1,4 +1,4 @@
-""" Problem 6: Write a Program that takes two strings and returns the longest common substring between them """
+""" Problem 6: Write a Program that takes two strings and returns the longest common substring between them. """
 
 
 # Get input from user for str1 and str2
